@@ -1,0 +1,37 @@
+@font-face {
+  font-family: DragonHunter;
+  src: Fonts/DragonHunter;
+}
+
+* {
+  background-color: #1F2937;
+  font-family: DragonHunter;
+  color: #f9faf8;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 96px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.header .logo {
+  font-size: 24px;
+}
+
