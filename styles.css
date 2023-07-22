@@ -54,6 +54,7 @@
 .content .top {
   display: flex;
   padding: 100px;
+  gap: 40px;
 }
 
 .hero-section {
@@ -187,3 +188,8 @@
 }
 
 
+.footer {
+  text-align: center;
+  padding: 32px;
+  font-size: 18px;
+}
