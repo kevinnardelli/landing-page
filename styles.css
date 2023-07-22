@@ -4,7 +4,6 @@
 }
 
 * {
-  background-color: #1F2937;
   font-family: DragonHunter;
   color: #f9faf8;
   padding: 0;
@@ -14,15 +13,21 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin: 0 150px;
-  gap: 100px;
+  margin: 0;
+}
+
+.header,
+.top,
+.footer {
+  background-color: #1F2937;
+  flex: auto;
 }
 
 .header {
   display: flex;
   justify-content: space-between;;
   align-items: center;
-  padding: 10px 0 0 0;
+  padding: 10px 100px 0 100px;
 }
 
 
@@ -40,6 +45,7 @@
   text-decoration: none;
 }
 
+
 .content {
   display: flex;
   flex-direction: column;
@@ -47,7 +53,7 @@
 
 .content .top {
   display: flex;
-  gap: 48px;
+  padding: 100px;
 }
 
 .hero-section {
@@ -82,3 +88,71 @@
   height: 232px;
   flex: 1;
 }
+
+.content .mid-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  gap: 36px;
+}
+
+.mid-top .head {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.members-section {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+}
+
+.members img {
+  width: 180px;
+  height: 180px;
+  border: 3px solid #3882F6;
+}
+
+.members .member-description {
+  color: #1f2937;
+  font-weight: lighter;
+}
+
+.content .mid-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  background-color: #E5E7EB;
+  gap: 5px;
+}
+
+.mid-bottom .quote-text {
+  font-family: italic;
+  width: 700px;
+}
+
+.quote-text em {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.mid-bottom .sign {
+  width: 700px;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: end;
+}
+
+
